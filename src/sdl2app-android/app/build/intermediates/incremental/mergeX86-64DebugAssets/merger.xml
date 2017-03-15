@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\src\sdl2-cross-platform-setup\sdl2app-android\app\src\main\assets"/></dataSet><dataSet config="x86-64"><source path="C:\src\sdl2-cross-platform-setup\sdl2app-android\app\src\x86-64\assets"/></dataSet><dataSet config="debug"><source path="C:\src\sdl2-cross-platform-setup\sdl2app-android\app\src\debug\assets"/></dataSet><dataSet config="x86-64Debug"><source path="C:\src\sdl2-cross-platform-setup\sdl2app-android\app\src\x86-64Debug\assets"/></dataSet></merger>

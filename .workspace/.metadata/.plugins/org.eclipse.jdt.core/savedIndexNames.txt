@@ -1,4 +1,0 @@
-INDEX VERSION 1.127+C:\src\sdl2-cross-platform-setup\.workspace\.metadata\.plugins\org.eclipse.jdt.core
-412688702.index
-1210872927.index
-2547530305.index
