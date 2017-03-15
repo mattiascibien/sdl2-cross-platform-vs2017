@@ -1,28 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Common">
-      <UniqueIdentifier>c8de0f6f-8d32-4457-95e9-d288216e5054</UniqueIdentifier>
+      <UniqueIdentifier>960f153e-21a1-4128-b59c-20e07386ae61</UniqueIdentifier>
     </Filter>
     <Filter Include="Assets">
-      <UniqueIdentifier>77ffaa56-59aa-47d6-9d4b-e7136cb2a0cc</UniqueIdentifier>
+      <UniqueIdentifier>8df69c45-d9f1-4998-843f-9c3fbc737206</UniqueIdentifier>
       <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ApplicationDefinition Include="App.xaml" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="App.xaml.cpp" />
-    <ClCompile Include="MainPage.xaml.cpp" />
-    <ClCompile Include="pch.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="pch.h" />
-    <ClInclude Include="App.xaml.h" />
-    <ClInclude Include="MainPage.xaml.h" />
-  </ItemGroup>
-  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>ece13304-9589-4b80-a79b-073139ed2e04</UniqueIdentifier>
+    </Filter>
     <Image Include="Assets\LockScreenLogo.scale-200.png">
       <Filter>Assets</Filter>
     </Image>
@@ -38,10 +26,12 @@
     <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="Assets\StoreLogo.png">
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\StoreLogo.png">
       <Filter>Assets</Filter>
     </Image>
   </ItemGroup>
@@ -50,8 +40,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="sdl2app-uwp_TemporaryKey.pfx" />
+    <None Include="..\..\sdl2\src\main\winrt\SDL2-WinRTResource_BlankCursor.cur" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="MainPage.xaml" />
+    <ClCompile Include="..\..\sdl2\src\main\winrt\SDL_winrt_main_NonXAML.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\sdl2\src\main\winrt\SDL2-WinRTResources.rc" />
   </ItemGroup>
 </Project>

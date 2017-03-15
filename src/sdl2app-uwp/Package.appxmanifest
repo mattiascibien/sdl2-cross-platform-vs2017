@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="161e672c-db68-4540-9036-b01cdde291ae"
+    Name="23a28fe0-8326-4997-8ddc-ade14fa699d5"
     Publisher="CN=mattias"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="161e672c-db68-4540-9036-b01cdde291ae" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="23a28fe0-8326-4997-8ddc-ade14fa699d5" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>sdl2app-uwp</DisplayName>
